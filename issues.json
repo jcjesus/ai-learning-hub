@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "title": "US1.1 – Revisar Álgebra Linear",
+      "body": "Como dev, quero revisar Álgebra Linear para aplicar em ML.\n\n**Acceptance Criteria:** Notebook com 10 exercícios resolvidos.",
+      "labels": ["Epic:Fundamentos de IA","Story","Points:3","Sprint 1"],
+      "assignee": ""
+    },
+    {
+      "title": "US1.2 – Configurar ambiente Docker‑Python",
+      "body": "Como dev, quero configurar ambiente Docker + virtualenv para padronizar dev setup.\n\n**Acceptance Criteria:** Dockerfile funcional e README com instruções.",
+      "labels": ["Epic:Fundamentos de IA","Story","Points:2","Sprint 1"],
+      "assignee": ""
+    },
+    {
+      "title": "US2.1 – Treinar modelo de classificação",
+      "body": "Como dev, quero treinar um modelo de classificação supervised ML.\n\n**Acceptance Criteria:** Modelo sklearn com relatório de métricas (AUC ≥ 0.8).",
+      "labels": ["Epic:ML Supervisionado","Story","Points:5","Sprint 2"],
+      "assignee": ""
+    },
+    {
+      "title": "US2.2 – Versionar datasets com DVC",
+      "body": "Como dev, quero versionar datasets para rastreabilidade.\n\n**Acceptance Criteria:** Pipeline CI integrado ao DVC.",
+      "labels": ["Epic:ML Supervisionado","Story","Points:3","Sprint 2"],
+      "assignee": ""
+    },
+    {
+      "title": "US3.1 – Construir chatbot básico",
+      "body": "Como dev, quero construir um chatbot usando FastAPI + OpenAI API.\n\n**Acceptance Criteria:** API retornando respostas coerentes em ≥90% dos testes.",
+      "labels": ["Epic:LLMs & Prompt Engineering","Story","Points:5","Sprint 3"],
+      "assignee": ""
+    },
+    {
+      "title": "US3.2 – Testar prompts em diferentes cenários",
+      "body": "Como dev, quero criar matriz de testes para validar consistência dos prompts.\n\n**Acceptance Criteria:** Documento de teste cobrindo ≥10 cenários.",
+      "labels": ["Epic:LLMs & Prompt Engineering","Story","Points:3","Sprint 3"],
+      "assignee": ""
+    },
+    {
+      "title": "US4.1 – Deploy de modelo em AWS Lambda",
+      "body": "Como dev, quero disponibilizar endpoint público para o modelo em AWS Lambda.\n\n**Acceptance Criteria:** Endpoint respondendo em <5s.",
+      "labels": ["Epic:Deploy & MLOps","Story","Points:5","Sprint 4"],
+      "assignee": ""
+    },
+    {
+      "title": "US4.2 – Configurar CI/CD para modelos",
+      "body": "Como dev, quero pipeline de CI/CD usando GitHub Actions para testes e deploy automáticos.\n\n**Acceptance Criteria:** Workflow rodando testes unitários e deploy automático.",
+      "labels": ["Epic:Deploy & MLOps","Story","Points:3","Sprint 4"],
+      "assignee": ""
+    }
+  ]
+}
